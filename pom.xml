@@ -17,7 +17,7 @@
 
   <modules>
     <module>task-cli</module>
-    <module>task-cli-edit</module>
+    <module>task-cli.edit</module>
     <module>task-cli-feature</module>
     <module>task-cli-updatesite</module>
   </modules>
