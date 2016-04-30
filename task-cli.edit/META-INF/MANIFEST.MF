@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-Vendor: %providerName
-Bundle-SymbolicName: task-cli.edit;singleton:=true
+Bundle-SymbolicName: com.github.maybee.oomph.task.cli.edit;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: cli.provider.cliEditPlugin$Implementation
@@ -16,5 +16,5 @@ Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)",
  org.eclipse.oomph.setup.edit;bundle-version="[1.1.0,2.0.0)";visibility:=reexport,
  org.eclipse.oomph.base;bundle-version="[1.1.0,2.0.0)";visibility:=reexport,
  org.eclipse.oomph.base.edit;bundle-version="[1.1.0,2.0.0)";visibility:=reexport,
- task-cli;bundle-version="[1.0.0,2.0.0)";visibility:=reexport
+ com.github.maybee.oomph.task.cli;bundle-version="[1.0.0,2.0.0)";visibility:=reexport
 Export-Package: cli.provider;version="1.0.0"
