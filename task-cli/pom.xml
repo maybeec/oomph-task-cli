@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>task-cli</artifactId>
+  <artifactId>com.github.maybee.oomph.task.cli</artifactId>
   <name>Oomph Task - Command Line Interface</name>
   <packaging>eclipse-plugin</packaging>
 
@@ -13,61 +13,8 @@
     <relativePath>..</relativePath>
   </parent>
 
-  <dependencies>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.4</version>
-    </dependency>
-  </dependencies>
-
   <build>
     <plugins>
-      <!-- Maven Build -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>copy-dependencies</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-              <includeScope>runtime</includeScope>
-              <overWriteIfNewer>true</overWriteIfNewer>
-              <outputDirectory>${project.basedir}/lib</outputDirectory>
-              <markersDirectory>${project.basedir}/lib</markersDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>2.5</version>
-        <executions>
-          <execution>
-            <id>clean-dependencies</id>
-            <phase>clean</phase>
-            <goals>
-              <goal>clean</goal>
-            </goals>
-            <configuration>
-              <filesets>
-                <fileset>
-                  <directory>lib</directory>
-                  <includes>
-                    <include>**/*</include>
-                  </includes>
-                </fileset>
-              </filesets>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
       <!-- Tycho Build -->
       <plugin>
         <groupId>org.eclipse.tycho</groupId>

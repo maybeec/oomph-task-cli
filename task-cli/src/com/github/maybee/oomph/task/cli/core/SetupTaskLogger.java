@@ -1,7 +1,7 @@
 /**
  *
  */
-package cli.core;
+package com.github.maybee.oomph.task.cli.core;
 
 import org.eclipse.oomph.setup.SetupTaskContext;
 import org.eclipse.oomph.setup.log.ProgressLog.Severity;

@@ -1,16 +1,16 @@
 /**
  *
  */
-package cli.core.impl;
-
-import cli.core.CommandLineUtil;
-import cli.core.SetupTaskLogger;
-import cli.core.exceptions.CommandLineUtilException;
+package com.github.maybee.oomph.task.cli.core.impl;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.github.maybee.oomph.task.cli.core.CommandLineUtil;
+import com.github.maybee.oomph.task.cli.core.SetupTaskLogger;
+import com.github.maybee.oomph.task.cli.core.exceptions.CommandLineUtilException;
 
 /**
  * @author sholzer

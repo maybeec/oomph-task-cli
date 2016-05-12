@@ -10,7 +10,7 @@
       <!-- @generated cli -->
       <package
             uri="http://www.example.org/task-cli/1.0"
-            class="cli.cliPackage"
+            class="com.github.maybee.oomph.task.cli.cliPackage"
             genModel="model/cli.genmodel"/>
    </extension>
 

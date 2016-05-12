@@ -10,7 +10,7 @@
       <!-- @generated cli -->
       <factory
             uri="http://www.example.org/task-cli/1.0"
-            class="cli.provider.cliItemProviderAdapterFactory"
+            class="com.github.maybee.oomph.task.cli.provider.cliItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
@@ -23,10 +23,9 @@
       <!-- @generated cli -->
       <extender
             uri="http://www.eclipse.org/oomph/base/1.0"
-            class="cli.provider.cliItemProviderAdapterFactory$BaseChildCreationExtender"/>
+            class="com.github.maybee.oomph.task.cli.provider.cliItemProviderAdapterFactory$BaseChildCreationExtender"/>
       <extender
             uri="http://www.eclipse.org/oomph/setup/1.0"
-            class="cli.provider.cliItemProviderAdapterFactory$SetupChildCreationExtender"/>
+            class="com.github.maybee.oomph.task.cli.provider.cliItemProviderAdapterFactory$SetupChildCreationExtender"/>
    </extension>
-
 </plugin>

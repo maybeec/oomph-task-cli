@@ -12,6 +12,6 @@ Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)",
  org.eclipse.emf.ecore;bundle-version="[2.10.0,3.0.0)";visibility:=reexport,
  org.eclipse.oomph.setup;bundle-version="[1.1.0,2.0.0)";visibility:=reexport,
  org.eclipse.oomph.base;bundle-version="[1.1.0,2.0.0)";visibility:=reexport
-Export-Package: cli;version="1.0.0",
- cli.impl;version="1.0.0",
- cli.util;version="1.0.0"
+Export-Package: com.github.maybee.oomph.task.cli,
+ com.github.maybee.oomph.task.cli.impl,
+ com.github.maybee.oomph.task.cli.util
