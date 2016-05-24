@@ -1,4 +1,5 @@
 = Oomph Command Line Interface Setup Task
+
 == Purpose
 The `oomph-cli-task` is an extension for the https://projects.eclipse.org/proposals/oomph[Eclipse Oomph Installer] that allows to access the command line during the setup. The `cliTask` works as a wrapper for the `java.lang.ProcessBuilder`.
 
