@@ -17,13 +17,15 @@ We haven't released yet. So this doesn't work for now.
 * Now you can add the following snippet to your Setup file
 [source, xml]
 <setupTask
-    xsi:type="cli:cliTask"
-    id="some.id"
+    xsi:type="cmd:CmdTask"
+    id="reorder.nodejs.2"
     excludedTriggers="STARTUP"
-    command="rename">
-    <argument>${installation.location.win}\elasticsearch-2.3.0</argument>
-    <argument>elasticsearch</argument>
+    command="xcopy">
+    <argument>${installation.location.win}\nodejs\App\NodeJS</argument>
+    <argument>${installation.location.win}\nodejs\</argument>
+    <argument>/E</argument>
 </setupTask>
+
 * `command` specifies the command to be executed. The command needs to be accessible from the shell independendly from the current directory the shell is executed. Local commands should be called with the full path
 * `<argument>` specifies an argument to the command. This follows the syntax the `ProcessBuilder` provides. There can be as many `<argument>` elements as needed.
 
