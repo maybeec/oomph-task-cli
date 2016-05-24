@@ -26,7 +26,8 @@ We haven't released yet. So this doesn't work for now.
     </setupTask>
 * `command` specifies the command to be executed. The command needs to be accessible from the shell independendly from the current directory the shell is executed. Local commands should be called with the full path
 * `<argument>` specifies an argument to the command. This follows the syntax the `ProcessBuilder` provides. There can be as many `<argument>` elements as needed.
-[WARNING]
+
+[CAUTION]
 ====
 The Windows shell uses `/` as an identifier for command arguments. The `\` is used in paths. Consider this when accessing path variables.
 ====
