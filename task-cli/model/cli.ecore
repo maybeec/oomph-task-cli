@@ -2,7 +2,7 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="cli" nsURI="http://www.example.org/task-cli/1.0" nsPrefix="com.github.maybee.oomph.task">
   <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-    <details key="schemaLocation" value="https://raw.githubusercontent.com/may-bee/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore"/>
+    <details key="schemaLocation" value="https://raw.githubusercontent.com/maybeec/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore"/>
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="cliTask" eSuperTypes="../../org.eclipse.oomph.setup/model/Setup.ecore#//SetupTask">
     <eAnnotations source="http://www.eclipse.org/oomph/setup/Enablement">
