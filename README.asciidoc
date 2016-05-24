@@ -16,14 +16,14 @@ We haven't released yet. So this doesn't work for now.
 
 * Now you can add the following snippet to your Setup file
 [source, xml]
-	<setupTask
-        xsi:type="cli:cliTask"
-        id="some.id"
-        excludedTriggers="STARTUP"
-        command="rename">
-      <argument>${installation.location.win}\elasticsearch-2.3.0</argument>
-      <argument>elasticsearch</argument>
-    </setupTask>
+<setupTask
+    xsi:type="cli:cliTask"
+    id="some.id"
+    excludedTriggers="STARTUP"
+    command="rename">
+    <argument>${installation.location.win}\elasticsearch-2.3.0</argument>
+    <argument>elasticsearch</argument>
+</setupTask>
 * `command` specifies the command to be executed. The command needs to be accessible from the shell independendly from the current directory the shell is executed. Local commands should be called with the full path
 * `<argument>` specifies an argument to the command. This follows the syntax the `ProcessBuilder` provides. There can be as many `<argument>` elements as needed.
 
