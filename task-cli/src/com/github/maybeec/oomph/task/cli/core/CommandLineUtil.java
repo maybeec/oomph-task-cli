@@ -1,9 +1,9 @@
 /**
  *
  */
-package com.github.maybee.oomph.task.cli.core;
+package com.github.maybeec.oomph.task.cli.core;
 
-import com.github.maybee.oomph.task.cli.core.exceptions.CommandLineUtilException;
+import com.github.maybeec.oomph.task.cli.core.exceptions.CommandLineUtilException;
 
 /**
  * @author sholzer

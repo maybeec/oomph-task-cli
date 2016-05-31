@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.util;
+package com.github.maybeec.oomph.task.cli.util;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -8,8 +8,8 @@ import org.eclipse.emf.ecore.util.Switch;
 import org.eclipse.oomph.base.ModelElement;
 import org.eclipse.oomph.setup.SetupTask;
 
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,7 +21,7 @@ import com.github.maybee.oomph.task.cli.cliTask;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.cli.cliPackage
+ * @see com.github.maybeec.oomph.task.cli.cliPackage
  * @generated
  */
 public class cliSwitch<T> extends Switch<T> {

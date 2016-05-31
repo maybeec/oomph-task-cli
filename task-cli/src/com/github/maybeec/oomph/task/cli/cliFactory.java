@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli;
+package com.github.maybeec.oomph.task.cli;
 
 import org.eclipse.emf.ecore.EFactory;
 
@@ -9,7 +9,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.cli.cliPackage
+ * @see com.github.maybeec.oomph.task.cli.cliPackage
  * @generated
  */
 public interface cliFactory extends EFactory {
@@ -19,7 +19,7 @@ public interface cliFactory extends EFactory {
      * <!-- end-user-doc -->
      * @generated
      */
-    cliFactory eINSTANCE = com.github.maybee.oomph.task.cli.impl.cliFactoryImpl.init();
+    cliFactory eINSTANCE = com.github.maybeec.oomph.task.cli.impl.cliFactoryImpl.init();
 
     /**
      * Returns a new object of class '<em>Task</em>'.

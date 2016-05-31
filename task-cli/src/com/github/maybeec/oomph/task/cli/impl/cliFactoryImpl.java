@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.impl;
+package com.github.maybeec.oomph.task.cli.impl;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
@@ -8,9 +8,9 @@ import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EFactoryImpl;
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
 
-import com.github.maybee.oomph.task.cli.cliFactory;
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.cliFactory;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
 
 /**
  * <!-- begin-user-doc -->

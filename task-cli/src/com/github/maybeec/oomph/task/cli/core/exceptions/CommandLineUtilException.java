@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.github.maybee.oomph.task.cli.core.exceptions;
+package com.github.maybeec.oomph.task.cli.core.exceptions;
 
 /**
  * @author sholzer

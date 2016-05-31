@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli;
+package com.github.maybeec.oomph.task.cli;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -18,7 +18,7 @@ import org.eclipse.oomph.setup.SetupPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.cli.cliFactory
+ * @see com.github.maybeec.oomph.task.cli.cliFactory
  * @model kind="package"
  *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/may-bee/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore'"
  * @generated
@@ -46,7 +46,7 @@ public interface cliPackage extends EPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    String eNS_PREFIX = "com.github.maybee.oomph.task";
+    String eNS_PREFIX = "com.github.maybeec.oomph.task";
 
     /**
      * The singleton instance of the package.
@@ -54,14 +54,14 @@ public interface cliPackage extends EPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    cliPackage eINSTANCE = com.github.maybee.oomph.task.cli.impl.cliPackageImpl.init();
+    cliPackage eINSTANCE = com.github.maybeec.oomph.task.cli.impl.cliPackageImpl.init();
 
     /**
-     * The meta object id for the '{@link com.github.maybee.oomph.task.cli.impl.cliTaskImpl <em>Task</em>}' class.
+     * The meta object id for the '{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl <em>Task</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see com.github.maybee.oomph.task.cli.impl.cliTaskImpl
-     * @see com.github.maybee.oomph.task.cli.impl.cliPackageImpl#getcliTask()
+     * @see com.github.maybeec.oomph.task.cli.impl.cliTaskImpl
+     * @see com.github.maybeec.oomph.task.cli.impl.cliPackageImpl#getcliTask()
      * @generated
      */
     int CLI_TASK = 0;
@@ -194,43 +194,43 @@ public interface cliPackage extends EPackage {
 
 
     /**
-     * Returns the meta object for class '{@link com.github.maybee.oomph.task.cli.cliTask <em>Task</em>}'.
+     * Returns the meta object for class '{@link com.github.maybeec.oomph.task.cli.cliTask <em>Task</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for class '<em>Task</em>'.
-     * @see com.github.maybee.oomph.task.cli.cliTask
+     * @see com.github.maybeec.oomph.task.cli.cliTask
      * @generated
      */
     EClass getcliTask();
 
     /**
-     * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.cli.cliTask#getCommand <em>Command</em>}'.
+     * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.cli.cliTask#getCommand <em>Command</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Command</em>'.
-     * @see com.github.maybee.oomph.task.cli.cliTask#getCommand()
+     * @see com.github.maybeec.oomph.task.cli.cliTask#getCommand()
      * @see #getcliTask()
      * @generated
      */
     EAttribute getcliTask_Command();
 
     /**
-     * Returns the meta object for the attribute list '{@link com.github.maybee.oomph.task.cli.cliTask#getArgument <em>Argument</em>}'.
+     * Returns the meta object for the attribute list '{@link com.github.maybeec.oomph.task.cli.cliTask#getArgument <em>Argument</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute list '<em>Argument</em>'.
-     * @see com.github.maybee.oomph.task.cli.cliTask#getArgument()
+     * @see com.github.maybeec.oomph.task.cli.cliTask#getArgument()
      * @see #getcliTask()
      * @generated
      */
     EAttribute getcliTask_Argument();
 
     /**
-     * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.cli.cliTask#getPriority <em>Priority</em>}'.
+     * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.cli.cliTask#getPriority <em>Priority</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Priority</em>'.
-     * @see com.github.maybee.oomph.task.cli.cliTask#getPriority()
+     * @see com.github.maybeec.oomph.task.cli.cliTask#getPriority()
      * @see #getcliTask()
      * @generated
      */
@@ -259,11 +259,11 @@ public interface cliPackage extends EPackage {
      */
     interface Literals {
         /**
-         * The meta object literal for the '{@link com.github.maybee.oomph.task.cli.impl.cliTaskImpl <em>Task</em>}' class.
+         * The meta object literal for the '{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl <em>Task</em>}' class.
          * <!-- begin-user-doc -->
          * <!-- end-user-doc -->
-         * @see com.github.maybee.oomph.task.cli.impl.cliTaskImpl
-         * @see com.github.maybee.oomph.task.cli.impl.cliPackageImpl#getcliTask()
+         * @see com.github.maybeec.oomph.task.cli.impl.cliTaskImpl
+         * @see com.github.maybeec.oomph.task.cli.impl.cliPackageImpl#getcliTask()
          * @generated
          */
         EClass CLI_TASK = eINSTANCE.getcliTask();

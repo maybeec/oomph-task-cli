@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.provider;
+package com.github.maybeec.oomph.task.cli.provider;
 
 import org.eclipse.emf.common.EMFPlugin;
 import org.eclipse.emf.common.util.ResourceLocator;

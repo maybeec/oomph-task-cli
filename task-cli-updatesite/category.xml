@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.github.maybee.oomph.task.cli.feature_0.0.0.jar" id="com.github.maybee.oomph.task.cli.feature" version="0.0.0">
-      <category name="com.github.maybee.oomph.tasks.category"/>
+   <feature url="features/com.github.maybeec.oomph.task.cli.feature_0.0.0.jar" id="com.github.maybeec.oomph.task.cli.feature" version="0.0.0">
+      <category name="com.github.maybeec.oomph.tasks.category"/>
    </feature>
-   <category-def name="com.github.maybee.oomph.tasks.category" label="Oomph Setup Tasks"/>
+   <category-def name="com.github.maybeec.oomph.tasks.category" label="Oomph Setup Tasks"/>
 </site>

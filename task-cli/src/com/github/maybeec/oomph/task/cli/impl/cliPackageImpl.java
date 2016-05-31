@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.impl;
+package com.github.maybeec.oomph.task.cli.impl;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -8,9 +8,9 @@ import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 import org.eclipse.oomph.setup.SetupPackage;
 
-import com.github.maybee.oomph.task.cli.cliFactory;
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.cliFactory;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
 
 /**
  * <!-- begin-user-doc -->
@@ -37,7 +37,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @see org.eclipse.emf.ecore.EPackage.Registry
-     * @see com.github.maybee.oomph.task.cli.cliPackage#eNS_URI
+     * @see com.github.maybeec.oomph.task.cli.cliPackage#eNS_URI
      * @see #init()
      * @generated
      */

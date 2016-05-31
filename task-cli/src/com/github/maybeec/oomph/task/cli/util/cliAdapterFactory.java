@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.util;
+package com.github.maybeec.oomph.task.cli.util;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -9,15 +9,15 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.oomph.base.ModelElement;
 import org.eclipse.oomph.setup.SetupTask;
 
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
 
 /**
  * <!-- begin-user-doc -->
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.cli.cliPackage
+ * @see com.github.maybeec.oomph.task.cli.cliPackage
  * @generated
  */
 public class cliAdapterFactory extends AdapterFactoryImpl {
@@ -101,13 +101,13 @@ public class cliAdapterFactory extends AdapterFactoryImpl {
 
 
     /**
-     * Creates a new adapter for an object of class '{@link com.github.maybee.oomph.task.cli.cliTask <em>Task</em>}'.
+     * Creates a new adapter for an object of class '{@link com.github.maybeec.oomph.task.cli.cliTask <em>Task</em>}'.
      * <!-- begin-user-doc -->
      * This default implementation returns null so that we can easily ignore cases;
      * it's useful to ignore a case when inheritance will catch all the cases anyway.
      * <!-- end-user-doc -->
      * @return the new adapter.
-     * @see com.github.maybee.oomph.task.cli.cliTask
+     * @see com.github.maybeec.oomph.task.cli.cliTask
      * @generated
      */
     public Adapter createcliTaskAdapter() {

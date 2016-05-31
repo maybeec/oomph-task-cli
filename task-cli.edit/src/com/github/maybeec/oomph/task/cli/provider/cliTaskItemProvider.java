@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.provider;
+package com.github.maybeec.oomph.task.cli.provider;
 
 
 import java.util.Collection;
@@ -14,11 +14,11 @@ import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 import org.eclipse.oomph.setup.provider.SetupTaskItemProvider;
 
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
 
 /**
- * This is the item provider adapter for a {@link com.github.maybee.oomph.task.cli.cliTask} object.
+ * This is the item provider adapter for a {@link com.github.maybeec.oomph.task.cli.cliTask} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated

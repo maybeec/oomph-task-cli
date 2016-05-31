@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.provider;
+package com.github.maybeec.oomph.task.cli.provider;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -33,9 +33,9 @@ import org.eclipse.oomph.setup.SetupPackage;
 import org.eclipse.oomph.setup.SetupTaskContainer;
 import org.eclipse.oomph.setup.util.SetupSwitch;
 
-import com.github.maybee.oomph.task.cli.cliFactory;
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.util.cliAdapterFactory;
+import com.github.maybeec.oomph.task.cli.cliFactory;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.util.cliAdapterFactory;
 
 /**
  * This is the factory that is used to provide the interfaces needed to support Viewers.
@@ -94,7 +94,7 @@ public class cliItemProviderAdapterFactory extends cliAdapterFactory implements 
     }
 
     /**
-     * This keeps track of the one adapter used for all {@link com.github.maybee.oomph.task.cli.cliTask} instances.
+     * This keeps track of the one adapter used for all {@link com.github.maybeec.oomph.task.cli.cliTask} instances.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
@@ -102,7 +102,7 @@ public class cliItemProviderAdapterFactory extends cliAdapterFactory implements 
     protected cliTaskItemProvider cliTaskItemProvider;
 
     /**
-     * This creates an adapter for a {@link com.github.maybee.oomph.task.cli.cliTask}.
+     * This creates an adapter for a {@link com.github.maybeec.oomph.task.cli.cliTask}.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated

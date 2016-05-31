@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.cli.impl;
+package com.github.maybeec.oomph.task.cli.impl;
 
 import org.eclipse.oomph.setup.SetupTaskContext;
 import org.eclipse.oomph.setup.impl.SetupTaskImpl;
@@ -11,10 +11,10 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EDataTypeUniqueEList;
 
-import com.github.maybee.oomph.task.cli.cliPackage;
-import com.github.maybee.oomph.task.cli.cliTask;
-import com.github.maybee.oomph.task.cli.core.SetupTaskLogger;
-import com.github.maybee.oomph.task.cli.core.impl.CommandLineUtilImpl;
+import com.github.maybeec.oomph.task.cli.cliPackage;
+import com.github.maybeec.oomph.task.cli.cliTask;
+import com.github.maybeec.oomph.task.cli.core.SetupTaskLogger;
+import com.github.maybeec.oomph.task.cli.core.impl.CommandLineUtilImpl;
 
 import java.util.Collection;
 import java.util.LinkedList;
@@ -25,9 +25,9 @@ import java.util.List;
  * <p>
  * The following features are implemented:
  * <ul>
- * <li>{@link com.github.maybee.oomph.task.cli.impl.cliTaskImpl#getCommand <em>Command</em>}</li>
- * <li>{@link com.github.maybee.oomph.task.cli.impl.cliTaskImpl#getArgument <em>Argument</em>}</li>
- * <li>{@link com.github.maybee.oomph.task.cli.impl.cliTaskImpl#getPriority <em>Priority</em>}</li>
+ * <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getCommand <em>Command</em>}</li>
+ * <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getArgument <em>Argument</em>}</li>
+ * <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getPriority <em>Priority</em>}</li>
  * </ul>
  * </p>
  *
