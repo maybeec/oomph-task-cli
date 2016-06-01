@@ -3,14 +3,14 @@
  */
 package com.github.maybeec.oomph.task.cli.core.impl;
 
+import com.github.maybeec.oomph.task.cli.core.CommandLineUtil;
+import com.github.maybeec.oomph.task.cli.core.SetupTaskLogger;
+import com.github.maybeec.oomph.task.cli.core.exceptions.CommandLineUtilException;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.github.maybeec.oomph.task.cli.core.CommandLineUtil;
-import com.github.maybeec.oomph.task.cli.core.SetupTaskLogger;
-import com.github.maybeec.oomph.task.cli.core.exceptions.CommandLineUtilException;
 
 /**
  * @author sholzer
@@ -35,6 +35,7 @@ public class CommandLineUtilImpl implements CommandLineUtil
    */
   private CommandLineUtilImpl()
   {
+    SetupTaskLogger.getLogger().logInfo("Operating on " + OsUtil.getOsName());
   }
 
   /*
@@ -46,7 +47,6 @@ public class CommandLineUtilImpl implements CommandLineUtil
     SetupTaskLogger.getLogger().logInfo("Execute: " + stringListToLine(cmdLine));
     try
     {
-
       List<String> commands = new LinkedList<String>();
       commands.add("CMD");
       commands.add("/C");
