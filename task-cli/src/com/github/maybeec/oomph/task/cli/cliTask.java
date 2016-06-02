@@ -12,15 +12,15 @@ import org.eclipse.oomph.setup.SetupTask;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link com.github.maybeec.oomph.task.cli.cliTask#getCommand <em>Command</em>}</li>
  *   <li>{@link com.github.maybeec.oomph.task.cli.cliTask#getArgument <em>Argument</em>}</li>
  *   <li>{@link com.github.maybeec.oomph.task.cli.cliTask#getPriority <em>Priority</em>}</li>
  * </ul>
- * </p>
  *
  * @see com.github.maybeec.oomph.task.cli.cliPackage#getcliTask()
- * @model annotation="http://www.eclipse.org/oomph/setup/Enablement variableName='p2.cli' repository='http://download.example.org/task-cli/updates' installableUnits='task-cli.feature.group'"
+ * @model annotation="http://www.eclipse.org/oomph/setup/Enablement variableName='p2.cli' repository='http://maybeec.github.io/oomph-task-cli' installableUnits='task-cli.feature.group'"
  *        annotation="http://www.eclipse.org/oomph/setup/ValidTriggers triggers='BOOTSTRAP STARTUP MANUAL'"
  * @generated
  */

@@ -20,8 +20,8 @@
       The oomph-cli-task is an extension for the Eclipse Oomph Installer that allows to access the command line during the setup. The cliTask works as a wrapper for the java.lang.ProcessBuilder.
    </description>
 
-   <copyright url="http://www.example.org/task-cli/copyright.html">
-      %copyright
+   <copyright>
+      © 2016 Malte Brunnlieb and Steffen B. Holzer ALL RIGHTS RESERVED
    </copyright>
 
    <license url="https://www.eclipse.org/legal/epl-v10.html">
@@ -98,8 +98,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </license>
 
    <url>
-      <update label="%updateSiteName" url="http://download.example.org/task-cli/updates"/>
-      <discovery label="%updateSiteName" url="http://download.example.org/task-cli/updates"/>
+      <update label="%updateSiteName" url="http://maybeec.github.io/oomph-task-cli"/>
+      <discovery label="%updateSiteName" url="http://maybeec.github.io/oomph-task-cli"/>
       <discovery label="GitHub Repository" url="https://github.com/maybeec/oomph-task-cli"/>
    </url>
 
