@@ -23,12 +23,12 @@ import com.github.maybeec.oomph.task.cli.core.impl.CommandLineUtilImpl;
  * <!-- begin-user-doc --> An implementation of the model object '<em><b>Task</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
- * </p>
  * <ul>
  *   <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getCommand <em>Command</em>}</li>
  *   <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getArgument <em>Argument</em>}</li>
  *   <li>{@link com.github.maybeec.oomph.task.cli.impl.cliTaskImpl#getPriority <em>Priority</em>}</li>
  * </ul>
+ * </p>
  *
  * @generated
  */
