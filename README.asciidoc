@@ -12,7 +12,7 @@ At the moment this extension works only on the Windows OS. A setup task for Linu
 
 [WARNING]
 ====
-We haven't released yet. So this doesn't work for now.
+Beta Relase is now public. For development of oomph product or project setup files in eclipse install the plugin from https://maybeec.github.io/oomph-task-cli/update
 ====
 
 * Now you can add the following snippet to your Setup file
