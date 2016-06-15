@@ -247,7 +247,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
            new String[] {
              "variableName", "p2.cli",
              "repository", "http://maybeec.github.io/oomph-task-cli/update",
-             "installableUnits", "task-cli.feature.group"
+             "installableUnits", "com.github.maybeec.oomph.task.cli.feature.feature.group"
            });
     }
 
