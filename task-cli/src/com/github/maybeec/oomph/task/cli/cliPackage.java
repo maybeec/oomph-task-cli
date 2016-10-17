@@ -20,7 +20,7 @@ import org.eclipse.oomph.setup.SetupPackage;
  * <!-- end-user-doc -->
  * @see com.github.maybeec.oomph.task.cli.cliFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/may-bee/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore'"
+ *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/maybeec/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore'"
  * @generated
  */
 public interface cliPackage extends EPackage {
@@ -38,7 +38,7 @@ public interface cliPackage extends EPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    String eNS_URI = "http://www.example.org/task-cli/1.0";
+    String eNS_URI = "http://maybeec.github.io/oomph-task-cli/1.0";
 
     /**
      * The package namespace name.

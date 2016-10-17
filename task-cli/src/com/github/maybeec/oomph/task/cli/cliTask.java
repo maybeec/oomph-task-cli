@@ -20,7 +20,7 @@ import org.eclipse.oomph.setup.SetupTask;
  * </p>
  *
  * @see com.github.maybeec.oomph.task.cli.cliPackage#getcliTask()
- * @model annotation="http://www.eclipse.org/oomph/setup/Enablement variableName='p2.cli' repository='http://download.example.org/task-cli/updates' installableUnits='task-cli.feature.group'"
+ * @model annotation="http://www.eclipse.org/oomph/setup/Enablement variableName='p2.cli' repository='http://maybeec.github.io/oomph-task-cli/update' installableUnits='com.github.maybeec.oomph.task.cli.feature.feature.group'"
  *        annotation="http://www.eclipse.org/oomph/setup/ValidTriggers triggers='BOOTSTRAP STARTUP MANUAL'"
  * @generated
  */

@@ -206,7 +206,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
         initEAttribute(getcliTask_Priority(), ecorePackage.getEInt(), "priority", "500", 0, 1, cliTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
         // Create resource
-        createResource("https://raw.githubusercontent.com/may-bee/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore");
+        createResource("https://raw.githubusercontent.com/maybeec/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore");
 
         // Create annotations
         // http://www.eclipse.org/emf/2002/Ecore
@@ -229,7 +229,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
           (this,
            source,
            new String[] {
-             "schemaLocation", "https://raw.githubusercontent.com/may-bee/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore"
+             "schemaLocation", "https://raw.githubusercontent.com/maybeec/oomph-task-cli/master/task-cli-updatesite/model/Oomph-cli-task-1.0.ecore"
            });
     }
 
@@ -246,8 +246,8 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
            source,
            new String[] {
              "variableName", "p2.cli",
-             "repository", "http://download.example.org/task-cli/updates",
-             "installableUnits", "task-cli.feature.group"
+             "repository", "http://maybeec.github.io/oomph-task-cli/update",
+             "installableUnits", "com.github.maybeec.oomph.task.cli.feature.feature.group"
            });
     }
 
