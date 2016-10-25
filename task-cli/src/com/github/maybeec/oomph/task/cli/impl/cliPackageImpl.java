@@ -106,7 +106,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getcliTask_Command() {
+    public EAttribute getcliTask_Directory() {
         return (EAttribute)cliTaskEClass.getEStructuralFeatures().get(0);
     }
 
@@ -115,7 +115,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getcliTask_Argument() {
+    public EAttribute getcliTask_Command() {
         return (EAttribute)cliTaskEClass.getEStructuralFeatures().get(1);
     }
 
@@ -124,8 +124,17 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getcliTask_Priority() {
+    public EAttribute getcliTask_Argument() {
         return (EAttribute)cliTaskEClass.getEStructuralFeatures().get(2);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EAttribute getcliTask_Priority() {
+        return (EAttribute)cliTaskEClass.getEStructuralFeatures().get(3);
     }
 
     /**
@@ -159,6 +168,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
 
         // Create classes and their features
         cliTaskEClass = createEClass(CLI_TASK);
+        createEAttribute(cliTaskEClass, CLI_TASK__DIRECTORY);
         createEAttribute(cliTaskEClass, CLI_TASK__COMMAND);
         createEAttribute(cliTaskEClass, CLI_TASK__ARGUMENT);
         createEAttribute(cliTaskEClass, CLI_TASK__PRIORITY);
@@ -201,6 +211,7 @@ public class cliPackageImpl extends EPackageImpl implements cliPackage {
 
         // Initialize classes and features; add operations and parameters
         initEClass(cliTaskEClass, cliTask.class, "cliTask", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+        initEAttribute(getcliTask_Directory(), ecorePackage.getEString(), "directory", null, 1, 1, cliTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
         initEAttribute(getcliTask_Command(), ecorePackage.getEString(), "command", null, 1, 1, cliTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
         initEAttribute(getcliTask_Argument(), ecorePackage.getEString(), "argument", null, 0, -1, cliTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
         initEAttribute(getcliTask_Priority(), ecorePackage.getEInt(), "priority", "500", 0, 1, cliTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

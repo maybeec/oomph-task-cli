@@ -45,11 +45,34 @@ public class cliTaskItemProvider extends SetupTaskItemProvider {
         if (itemPropertyDescriptors == null) {
             super.getPropertyDescriptors(object);
 
+            addDirectoryPropertyDescriptor(object);
             addCommandPropertyDescriptor(object);
             addArgumentPropertyDescriptor(object);
             addPriorityPropertyDescriptor(object);
         }
         return itemPropertyDescriptors;
+    }
+
+    /**
+     * This adds a property descriptor for the Directory feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addDirectoryPropertyDescriptor(Object object) {
+        itemPropertyDescriptors.add
+            (createItemPropertyDescriptor
+                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+                 getResourceLocator(),
+                 getString("_UI_cliTask_directory_feature"),
+                 getString("_UI_PropertyDescriptor_description", "_UI_cliTask_directory_feature", "_UI_cliTask_type"),
+                 cliPackage.Literals.CLI_TASK__DIRECTORY,
+                 true,
+                 false,
+                 false,
+                 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                 null,
+                 null));
     }
 
     /**
@@ -166,6 +189,7 @@ public class cliTaskItemProvider extends SetupTaskItemProvider {
         updateChildren(notification);
 
         switch (notification.getFeatureID(cliTask.class)) {
+            case cliPackage.CLI_TASK__DIRECTORY:
             case cliPackage.CLI_TASK__COMMAND:
             case cliPackage.CLI_TASK__ARGUMENT:
             case cliPackage.CLI_TASK__PRIORITY:

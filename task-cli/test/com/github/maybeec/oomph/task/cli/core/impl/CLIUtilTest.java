@@ -21,7 +21,7 @@ public class CLIUtilTest {
 
     public CommandLineUtil test;
 
-    public static final String resources = "./test/resources/";
+    public static final String resources = "test/resources/";
 
     public static final String linuxResources = resources + "linux/";
 
@@ -33,10 +33,8 @@ public class CLIUtilTest {
 
     @BeforeClass
     public static void beforeClass() {
-        File resourcesFolder = new File(resources);
-        if (!resourcesFolder.exists()) {
-            resourcesFolder.mkdir();
-        }
+        new File(linuxResources).mkdirs();
+        new File(winResources).mkdirs();
         afterClass();
     }
 
@@ -63,10 +61,9 @@ public class CLIUtilTest {
         }
 
         List<String> commands = new LinkedList<String>();
-        commands.add("mkdir");
-        commands.add(executeOnLinux);
+        commands.add("folder");
 
-        test.execute(commands);
+        test.execute(linuxResources, "mkdir", commands);
 
         File footxt = new File(executeOnLinux);
 
@@ -82,8 +79,9 @@ public class CLIUtilTest {
         }
 
         List<String> commands = new LinkedList<String>();
-        commands.add("mkdir");
-        commands.add(executeOnWin);
+        commands.add("folder");
+        test.execute(new File(winResources).getAbsolutePath(), "mkdir", commands);
+
         File folder = new File(executeOnWin);
         assertTrue("file not created", folder.exists());
     }

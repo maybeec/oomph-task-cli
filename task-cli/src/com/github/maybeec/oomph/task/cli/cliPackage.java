@@ -157,13 +157,22 @@ public interface cliPackage extends EPackage {
     int CLI_TASK__FILTER = SetupPackage.SETUP_TASK__FILTER;
 
     /**
+     * The feature id for the '<em><b>Directory</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int CLI_TASK__DIRECTORY = SetupPackage.SETUP_TASK_FEATURE_COUNT + 0;
+
+    /**
      * The feature id for the '<em><b>Command</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int CLI_TASK__COMMAND = SetupPackage.SETUP_TASK_FEATURE_COUNT + 0;
+    int CLI_TASK__COMMAND = SetupPackage.SETUP_TASK_FEATURE_COUNT + 1;
 
     /**
      * The feature id for the '<em><b>Argument</b></em>' attribute list.
@@ -172,7 +181,7 @@ public interface cliPackage extends EPackage {
      * @generated
      * @ordered
      */
-    int CLI_TASK__ARGUMENT = SetupPackage.SETUP_TASK_FEATURE_COUNT + 1;
+    int CLI_TASK__ARGUMENT = SetupPackage.SETUP_TASK_FEATURE_COUNT + 2;
 
     /**
      * The feature id for the '<em><b>Priority</b></em>' attribute.
@@ -181,7 +190,7 @@ public interface cliPackage extends EPackage {
      * @generated
      * @ordered
      */
-    int CLI_TASK__PRIORITY = SetupPackage.SETUP_TASK_FEATURE_COUNT + 2;
+    int CLI_TASK__PRIORITY = SetupPackage.SETUP_TASK_FEATURE_COUNT + 3;
 
     /**
      * The number of structural features of the '<em>Task</em>' class.
@@ -190,7 +199,7 @@ public interface cliPackage extends EPackage {
      * @generated
      * @ordered
      */
-    int CLI_TASK_FEATURE_COUNT = SetupPackage.SETUP_TASK_FEATURE_COUNT + 3;
+    int CLI_TASK_FEATURE_COUNT = SetupPackage.SETUP_TASK_FEATURE_COUNT + 4;
 
 
     /**
@@ -202,6 +211,17 @@ public interface cliPackage extends EPackage {
      * @generated
      */
     EClass getcliTask();
+
+    /**
+     * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.cli.cliTask#getDirectory <em>Directory</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for the attribute '<em>Directory</em>'.
+     * @see com.github.maybeec.oomph.task.cli.cliTask#getDirectory()
+     * @see #getcliTask()
+     * @generated
+     */
+    EAttribute getcliTask_Directory();
 
     /**
      * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.cli.cliTask#getCommand <em>Command</em>}'.
@@ -267,6 +287,14 @@ public interface cliPackage extends EPackage {
          * @generated
          */
         EClass CLI_TASK = eINSTANCE.getcliTask();
+
+        /**
+         * The meta object literal for the '<em><b>Directory</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @generated
+         */
+        EAttribute CLI_TASK__DIRECTORY = eINSTANCE.getcliTask_Directory();
 
         /**
          * The meta object literal for the '<em><b>Command</b></em>' attribute feature.
