@@ -54,8 +54,8 @@ public class CommandLineUtilImpl implements CommandLineUtil {
             commands.add("CMD");
             commands.add("/C");
         } else {
-            commands.add("bash");
-            commands.add("-c");
+            // commands.add("sh");
+            // commands.add("-c");
         }
 
         commands.add(cmd);
