@@ -3,6 +3,9 @@ package com.github.maybeec.oomph.task.cli.core.impl;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -84,6 +87,17 @@ public class CLIUtilTest {
 
         File folder = new File(executeOnWin);
         assertTrue("file not created", folder.exists());
+    }
+
+    @Test
+    public void testWinWhiteSpacePath() throws Exception {
+        if (!OsUtil.isWindows()) {
+            System.out.println("----------Skipped Windows dependent test-------------");
+            return;
+        }
+        Path target = Paths.get(winResources + "new folder");
+        Files.createDirectories(target);
+
     }
 
     @AfterClass
