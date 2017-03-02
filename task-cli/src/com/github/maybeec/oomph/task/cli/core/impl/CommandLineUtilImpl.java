@@ -50,6 +50,10 @@ public class CommandLineUtilImpl implements CommandLineUtil {
     if (!new File(dir).isDirectory()) {
       throw new CommandLineUtilException(dir + " is not a directory");
     }
+    // Fix for Github Issue #11
+    if (args == null) {
+      args = new LinkedList<String>();
+    }
 
     SetupTaskLogger.getLogger().logInfo("Execute: " + cmd + " " + stringListToLine(args) + " @ " + dir);
 
@@ -86,6 +90,11 @@ public class CommandLineUtilImpl implements CommandLineUtil {
 
   }
 
+  /**
+   *
+   * @param list not null
+   * @return String containing space separated list entries. If list were empty the empty String is retured.
+   */
   public static String stringListToLine(Iterable<String> list) {
 
     String result = "";
